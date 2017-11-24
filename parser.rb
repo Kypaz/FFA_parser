@@ -3,6 +3,7 @@ require 'nokogiri'
 require 'watir'
 require 'json'
 
+#return a json with all pbs for a given athlete
 def get_pb_athlete(id)
   base_url = "http://bases.athle.com/asp.net/athletes.aspx?"
   record = "base=records&seq="
